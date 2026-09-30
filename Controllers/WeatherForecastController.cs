@@ -16,6 +16,7 @@ namespace myBooks.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+            nosecret = "repo has no secret"
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
